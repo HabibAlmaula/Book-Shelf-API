@@ -1,0 +1,34 @@
+{
+  "name": "book_shelf_api",
+  "version": "1.0.0",
+  "description": "Book API BE Submission Dicoding using HAPI",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-prod": "NODE_ENV=production node ./src/app.js",
+    "start-dev": "nodemon ./src/app.js"
+  },
+  "keywords": [],
+  "author": "Habib Almaula",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HabibAlmaula/Book-Shelf-API.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HabibAlmaula/Book-Shelf-API/issues"
+  },
+  "homepage": "https://github.com/HabibAlmaula/Book-Shelf-API#readme",
+  "dependencies": {
+    "@hapi/hapi": "^20.2.2",
+    "joi": "^17.6.0",
+    "lodash": "^4.17.21",
+    "nanoid": "^3.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "global": {
+    "_": true
+  }
+}
